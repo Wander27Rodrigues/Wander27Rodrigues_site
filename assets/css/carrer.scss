@@ -1,10 +1,4 @@
 /*!
-Theme Name: Creative - Technology HTML Template
-Theme URI: https://themeforest.net/user/shahzad11
-Author: shahzad
-Author URI: https://themeforest.net/user/shahzad11
-Description: Creative - Technology HTML is the Template which design and development for merend technology template.
-Version : 1.0.1
 
 table content
 1.header area start here
@@ -460,7 +454,7 @@ ul{
                     height:45px;
                     line-height:45px;
                     @include border-radius(50%);
-                    background:#ff4500;
+                    background:#2a74a8;
                     text-align:center;
                     display:inline-block;
                     font-weight:500;
@@ -626,7 +620,7 @@ ul{
                         height:20px;
                         line-height:20px;
                         @include border-radius(50%);
-                        border:3px solid #ff4500;
+                        border:3px solid #2a74a8;
                         left:-42px;
                         top:2px;
                         background:#1c1c1c;
@@ -663,7 +657,7 @@ ul{
                             height:20px;
                             line-height:20px;
                             @include border-radius(50%);
-                            border:3px solid #ff4500;
+                            border:3px solid #2a74a8;
                             left:-42px;
                             top:2px;
                             background:#1c1c1c;
@@ -673,7 +667,7 @@ ul{
                     h4{
                         font-size:18px;
                         line-height: 24px;
-                        color:#ff4500;
+                        color:#2a74a8;
                         font-weight:900;
                         text-transform:capitalize;
                         margin-bottom:4px;
@@ -711,7 +705,7 @@ ul{
                     h4{
                         font-size:18px;
                         line-height: 24px;
-                        color:#ff4500;
+                        color:#2a74a8;
                         font-weight:900;
                         text-transform:capitalize;
                         margin-bottom:15px;
@@ -723,7 +717,7 @@ ul{
                             height:20px;
                             line-height:20px;
                             @include border-radius(50%);
-                            border:3px solid #ff4500;
+                            border:3px solid #2a74a8;
                             left:-42px;
                             top:2px;
                             background:#1c1c1c;
@@ -771,7 +765,7 @@ ul{
         .service-icon{
             margin-bottom:15px;
             i{
-                color:#ff4500;
+                color:#2a74a8;
                 &:before{
                     margin-left:0;
                     font-size:40px;
@@ -816,11 +810,11 @@ ul{
             cursor: pointer;
             color:#f4f4f4;
             &:hover{
-                background:#ff4500;
+                background:#2a74a8;
                 color:#ffffff;
             }
             &.active{
-            background:#ff4500;
+            background:#2a74a8;
             color:#ffffff;
             }
         } 
@@ -939,7 +933,7 @@ ul{
         height:80px;
         line-height:80px;
         @include border-radius(50%);
-        background:#ff4500;
+        background:#2a74a8;
         margin:0 auto;
         i{
             color:#ffffff;
@@ -977,7 +971,7 @@ ul{
                         line-height: 32px;
                         @include border-radius(50%);
                         color:#ffffff;
-                        background:#ff4500;
+                        background:#2a74a8;
                         text-align:center;
                         margin-right:15px;
                         display:inline-block;;

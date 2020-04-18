@@ -106,7 +106,7 @@ Version : 1.0.1
     left: 0;
     right: 0;
     width: 100%;
-    background: #ff4500; }
+    background: #2a74a8; }
 
   .service-area .single-service {
     padding: 50px 20px; }
@@ -154,7 +154,7 @@ Version : 1.0.1
   .navbar-collapse.collapse.in {
     display: block !important;
     overflow-y: auto;
-    background: #FF4500; }
+    background: #2a74a8; }
 
   .navbar-header .collapse, .navbar-toggle {
     display: block !important; }

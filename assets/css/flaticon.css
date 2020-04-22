@@ -26,7 +26,7 @@
   font-family: Flaticon;
         font-size: 30px;
 font-style: normal;
-margin-left: 30px;
+margin-left: auto;
 }
 
 .flaticon-language:before { content: "\f100"; }

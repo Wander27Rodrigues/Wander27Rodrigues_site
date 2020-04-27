@@ -4,10 +4,8 @@ table content
 2.footer
 3.banner
 4.formação
-5.serviços
-6.portifolio
-7.depoimento
-8.contato
+5.portifolio
+
 --------------------*/
 *:focus {
   outline: 0 !important;
@@ -185,9 +183,8 @@ ul {
 .mean-container .mean-nav {
   position: absolute;
   top: 100%; }
+/* aqui termina rest */
 
-/*---------------------------
------------------------------*/
 .header-area {
   position: absolute;
   left: 0;
@@ -233,15 +230,13 @@ ul {
     .header-area .navbar-nav li:hover a {
       background: #1c1c1c;
       color: #ffffff; }
-      
-
-/*---------------------------
------------------------------*/
+  
 .footer-area {
   background: #1c1c1c;
   padding: 50px 0;
   border-top: 1px solid #343434;
   margin-top: 110px; }
+
   .footer-area .copyright p {
     margin-bottom: 0;
     height: 60;
@@ -250,6 +245,7 @@ ul {
     font-size: 16px;
     line-height: 50px;
     font-weight: 500; }
+
     .icones-roda {
       padding: auto;
       margin:auto;
@@ -286,58 +282,53 @@ ul {
   display: block;
   margin-top: 7px; }
 
-/*--------------------------------
----------------------------------*/
+/* aqui começa cabeçalho */
 .banner-area {
 
   background-size: cover;
   background: linear-gradient(180deg,  #2a74a8, #0e212f );
   padding: 215px 0 158px 0; }
-   .bannder-content .profile-img {
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    border-radius: 100%;
-    width: 510px;
-    height: 510px;
-    overflow: hidden;
-    padding: 30px;
-    border: 4px solid #ffffff;
-    margin: auto;
-    position: sticky ;
-    z-index: 1; }
-    
-    .banner-area .bannder-content .profile-img:after {
+
+    .caixa {
+      position: center;
+      margin: 15px auto;
       content: '';
-      position: absolute;
-      width: 100%;
-      height: 100%;
-      left: 0;
-      right: 0;
-      top: 0;
-      text-align: le;
-      background: linear-gradient(180deg, #2a74a8, #1c1c1c);
-      z-index: -1;
-      transform: scale(0.95);
+      width: 300px;
+      height: 300px;
+      line-height: 25px;
       -webkit-border-radius: 50%;
       -moz-border-radius: 50%;
       -ms-border-radius: 50%;
-      border-radius: 50%; }
-  .banner-area .bannder-content .profile-name {
+      border-radius: 50%;
+      border: 3px solid #ffffff;
+      top: 2px;
+      background: #2a74a8;
+      z-index: 1;
+
+    }
+    .profile-name{
+      font-size: 25px;
+      color: #ffffff;
+    }
+   
+  .banner-area .bannder-content  {
     margin-top: 58px; }
-    .banner-area .bannder-content .profile-name h1 {
+
+    .banner-area .bannder-content  h1 {
       font-size: 25px;
       line-height: 31px;
       font-weight: 900;
       text-transform: uppercase;
       letter-spacing: 2px;
       margin-bottom: 20px; }
-    .banner-area .bannder-content .profile-name p {
+
+    .banner-area .bannder-content  p {
       font-size: 20px;
       line-height: 32px;
       font-weight: 700;
       text-transform: uppercase;
       letter-spacing: 5px; }
+
       .icones{
         padding: auto;
         margin: auto;
@@ -353,16 +344,11 @@ ul {
         -webkit-transform:scale(1.3);
         -moz-transform:scale(1.3);
         transform:scale(1.3);}
-.profile-img{
-  width: auto;
-  height: auto;
-}
+
+/* aqui termina cabeçalho */
 
 
-
-
-/*---------------------------
------------------------------*/
+/* aqui começa formação */
 .about-me {
   background-color: #0e212f;
   padding: 3rem 1rem;
@@ -400,21 +386,6 @@ ul {
   font-family: "Roboto", sans-serif;
   color: #ffffff;}
 
-#bola ::after{
-position: absolute;
-left: 0em ;
-content: '';
-width: 25px;
-height: 25px;
-line-height: 25px;
--webkit-border-radius: 50%;
--moz-border-radius: 50%;
--ms-border-radius: 50%;
-border-radius: 50%;
-border: 3px solid #2a74a8;
-top: 2px;
-background: #1c1c1c;
-z-index: 1;}
 
 .blurb-info {
   color: #ffffff;
@@ -454,9 +425,6 @@ z-index: 1;}
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
 }
 
-
-
-/* aqui começa a formação*/
 .resume-area {
   background-color: #0e212f;
   padding: 3rem 1rem }
@@ -475,24 +443,7 @@ z-index: 1;}
 .yearpullright{
   float: right;
 }
-/*.resume-area .skills-list .single-skills h5:after {
-        position: absolute;
-        content: '';
-        width: 25px;
-        height: 25px;
-        line-height: 25px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        border: 3px solid #2a74a8;
-        left: -40px;
-        top: 2px;
-        background: #1c1c1c;
-        z-index: 1; }*/
-
-
-
+/* aqui termina a formação*/
 
 /*aqui começa area do portifloio*/
 .portfolio-area {
@@ -565,160 +516,10 @@ z-index: 1;}
           text-transform: capitalize; }
           .portfolio-area .grid .grid-item .work-hover .mask-work a:hover {
             background: #2a74a8; }
+          
+          
+/* aqui termina portifolio */
 
-/*aqui começa contato*/
-.contact-area {
-  padding-top: 110px; }
-  .contact-area .contact-left .map-area {
-    margin-bottom: 30px;
-    border: 10px solid #ffffff; }
-  .contact-area .contact-left .Profile-info ul {
-    margin: 0;
-    padding: 0;
-    list-style: none; }
-    .contact-area .contact-left .Profile-info ul li {
-      display: block;
-      margin-bottom: 8px;
-      font-weight: 400;
-      cursor: pointer; }
-      .contact-area .contact-left .Profile-info ul li i {
-        width: 32px;
-        height: 32px;
-        line-height: 32px;
-        -webkit-border-radius: 50%;
-        -moz-border-radius: 50%;
-        -ms-border-radius: 50%;
-        border-radius: 50%;
-        color: #ffffff;
-        background: #2a74a8;
-        text-align: center;
-        margin-right: 15px;
-        display: inline-block; }
-        .contact-area .contact-left .Profile-info ul li i:before {
-          margin-left: 0;
-          font-size: 20px; }
-      .contact-area .contact-left .Profile-info ul li span {
-        font-weight: 900;
-        text-transform: capitalize; }
-  .contact-area .contact-form {
-    margin: 0; }
-    .contact-area .contact-form h3 {
-      font-size: 24px;
-      color: #fffefe;
-      text-transform: capitalize;
-      font-weight: 900;
-      padding-left: 35px;
-      position: relative;
-      margin-bottom: 25px; }
-      .contact-area .contact-form h3:after {
-        position: absolute;
-        content: '';
-        width: 18px;
-        height: 18px;
-        line-height: 18px;
-        border: 3px solid #2a74a8;
-        left: 0;
-        top: 2px; }
-    .contact-area .contact-form form {
-      font-weight: 400;
-      font-family: "Roboto", sans-serif; }
-      .contact-area .contact-form form .input-grup input {
-        width: 100%;
-        height: 40px;
-        margin-bottom: 15px;
-        padding: 5px 20px;
-        font-size: 16px;
-        color: #585858;
-        text-transform: capitalize;
-        outline: 1px solid transparent;
-        border: 1px solid #323232;
-        background: #201f1f;
-        font-family: "Roboto", sans-serif; }
-        .contact-area .contact-form form .input-grup input:focus {
-          border: 1px solid #2a74a8; }
-      .contact-area .contact-form form .checkbox-grup {
-        margin: 20px 0; }
-        .contact-area .contact-form form .checkbox-grup .single-check {
-          display: inline-block;
-          width: 32%;
-          margin-bottom: 10px;
-          /*Checkboxes styles*/ }
-          .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] {
-            display: none; }
-          .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label {
-            display: block;
-            position: relative;
-            padding-left: 30px;
-            margin-bottom: 20px;
-            font: 14px/20px 'Open Sans', Arial, sans-serif;
-            color: #ffffff;
-            cursor: pointer; }
-          .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:last-child {
-            margin-bottom: 0; }
-          .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"] + label:before {
-            content: '';
-            display: block;
-            width: 20px;
-            height: 20px;
-            border: 2px solid #323232;
-            position: absolute;
-            left: 0;
-            top: 0;
-            opacity: 1;
-            -webkit-transition: all .12s, border-color .08s;
-            transition: all .12s, border-color .08s; }
-          .contact-area .contact-form form .checkbox-grup .single-check input[type="checkbox"]:checked + label:before {
-            width: 10px;
-            top: -5px;
-            left: 5px;
-            border-radius: 0;
-            opacity: 1;
-            border-top-color: transparent;
-            border-left-color: transparent;
-            -webkit-transform: rotate(45deg);
-            transform: rotate(45deg); }
-          .contact-area .contact-form form .checkbox-grup .single-check label {
-            font-size: 15px;
-            color: #ffffff;
-            font-weight: 400;
-            display: inline-block; }
-      .contact-area .contact-form form .messages-area textarea {
-        width: 100%;
-        height: 170px;
-        resize: none;
-        margin-bottom: 15px;
-        padding: 20px;
-        font-size: 16px;
-        color: #585858;
-        text-transform: capitalize;
-        outline: 1px solid transparent;
-        border: 1px solid #323232;
-        background: #201f1f;
-        font-family: "Roboto", sans-serif; }
-        .contact-area .contact-form form .messages-area textarea:focus {
-          border: 1px solid #2a74a8; }
-      .contact-area .contact-form form .submit-btn {
-        margin-top: 10px; }
-        .contact-area .contact-form form .submit-btn .btn {
-          color: #ffffff;
-          background: #2a74a8;
-          padding: 8px 30px;
-          -webkit-border-radius: 30px;
-          -moz-border-radius: 30px;
-          -ms-border-radius: 30px;
-          border-radius: 30px;
-          font-size: 16px;
-          font-weight: 400;
-          text-transform: capitalize;
-          -webkit-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          -o-transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          transition: all 300ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
-          position: relative;
-          background: #2a74a8; }
-          .contact-area .contact-form form .submit-btn .btn:hover {
-            color: #ffffff;
-            background: #2a74a8; }
-/*aqui termina contato*/
 /*===================================
 .pagenation-area
 ======================================*/

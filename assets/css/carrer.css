@@ -64,8 +64,13 @@ body {
 a:focus {
   outline: 0px solid; }
 
+.img-perfil {
+    margin: auto;
+    max-width: 30%;
+    height: auto; }
+
 img {
-  max-width: 100%;
+  max-width: 80%;
   height: auto; }
 
 .fix {
@@ -291,7 +296,7 @@ ul {
 
     .caixa {
       position: center;
-      margin: 15px auto;
+      /*margin: 15px auto;
       content: '';
       width: 300px;
       height: 300px;
@@ -303,7 +308,7 @@ ul {
       border: 3px solid #ffffff;
       top: 2px;
       background: #2a74a8;
-      z-index: 1;
+      z-index: 1;*/
 
     }
     .profile-name{
@@ -332,8 +337,8 @@ ul {
       .icones{
         padding: auto;
         margin: auto;
-        width:100px;
-        height:100px;
+        width:90px;
+        height:90px;
         -webkit-transform:scale(0.9);
         -moz-transform:scale(0.9);
         transform:scale(0.9);

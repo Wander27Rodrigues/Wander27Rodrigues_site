@@ -66,11 +66,11 @@ a:focus {
 
 .img-perfil {
     margin: auto;
-    max-width: 30%;
+    max-width: 40%;
     height: auto; }
 
 img {
-  max-width: 80%;
+  max-width: 40%;
   height: auto; }
 
 .fix {
